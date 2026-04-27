@@ -1,0 +1,178 @@
+.teacher-language-mapping {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.teacher-language-mapping h2 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.teacher-language-mapping .description {
+  color: #666;
+  margin-bottom: 30px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.mapping-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.language-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.language-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.language-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.language-flag {
+  width: 40px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-right: 15px;
+  border: 1px solid #ddd;
+}
+
+.language-header h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #2c3e50;
+  flex-grow: 1;
+}
+
+.language-code {
+  background: #f0f0f0;
+  color: #666;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-family: monospace;
+}
+
+.teachers-list {
+  margin-bottom: 15px;
+}
+
+.teacher-item {
+  background: #f8f9fa;
+  border-radius: 6px;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-left: 4px solid #3498db;
+}
+
+.teacher-item:last-child {
+  margin-bottom: 0;
+}
+
+.teacher-name {
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.teacher-login {
+  color: #666;
+  font-size: 13px;
+  margin-bottom: 3px;
+  font-family: monospace;
+}
+
+.teacher-language {
+  color: #27ae60;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.language-info {
+  background: #e8f4fc;
+  border-radius: 6px;
+  padding: 12px;
+  font-size: 14px;
+  color: #2c3e50;
+  border-left: 4px solid #3498db;
+}
+
+.language-info p {
+  margin: 0;
+  line-height: 1.4;
+}
+
+.usage-instructions {
+  background: white;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.usage-instructions h3 {
+  color: #2c3e50;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.usage-instructions ol,
+.usage-instructions ul {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.usage-instructions li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.usage-instructions strong {
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.usage-instructions ul li:first-child {
+  color: #27ae60;
+}
+
+.usage-instructions ul li:last-child {
+  color: #e74c3c;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+  .mapping-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .teacher-language-mapping {
+    padding: 15px;
+  }
+  
+  .language-header {
+    flex-wrap: wrap;
+  }
+  
+  .language-header h3 {
+    font-size: 16px;
+  }
+}
