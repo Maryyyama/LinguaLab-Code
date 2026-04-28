@@ -20,10 +20,10 @@
 ## 🎨 Дизайн в Figma
 
 <div align="center">
-  <a href="[https://www.figma.com/design/JcOLyq64uVXBusenM40VMy/LinguaLab?node-id=524-72](https://www.figma.com/design/JcOLyq64uVXBusenM40VMy/LinguaLab?node-id=113-212&t=T6vqgQ9IxuZAOrjZ-1)">
+  <p><i>Кликни на изображение — откроется макет в Figma</i></p>
+  <a href="https://www.figma.com/design/JcOLyq64uVXBusenM40VMy/LinguaLab?node-id=113-212&t=T6vqgQ9IxuZAOrjZ-1">
     <img src="screenshot.jpg" width="600" alt="Макет LinguaLab" style="border-radius: 16px; border: 1px solid #ddd;" />
   </a>
-  <p><i>Кликни на изображение — откроется макет в Figma</i></p>
 </div>
 
 ---
